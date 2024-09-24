@@ -111,7 +111,7 @@
             me.newValue = {
                 'defectId': 0,
                 'status': '',
-                'defectDt': '2024-09-23',
+                'defectDt': '2024-09-24',
                 'defectType': '',
                 'address': '',
                 'phoneNumber': '',

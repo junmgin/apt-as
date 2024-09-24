@@ -44,6 +44,9 @@ public class DefectManagement {
         defectRejected.publishAfterCommit();
     }
 
+    @PreRemove
+    public void onPreRemove() {}
+
     public static DefectManagementRepository repository() {
         DefectManagementRepository defectManagementRepository = ManagementApplication.applicationContext.getBean(
             DefectManagementRepository.class
