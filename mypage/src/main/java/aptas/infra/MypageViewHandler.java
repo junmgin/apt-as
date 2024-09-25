@@ -31,10 +31,6 @@ public class MypageViewHandler {
             mypage.setDefectType(defectRegistered.getDefectType());
             mypage.setStatus(defectRegistered.getStatus());
             mypage.setQty(defectRegistered.getQty());
-            mypage.setDefectId(Long.valueOf(defectRegistered.getDefectId()));
-            mypage.setDefectType(defectRegistered.getDefectType());
-            mypage.setStatus(defectRegistered.getStatus());
-            mypage.setQty(defectRegistered.getQty());
             // view 레파지 토리에 save
             mypageRepository.save(mypage);
         } catch (Exception e) {

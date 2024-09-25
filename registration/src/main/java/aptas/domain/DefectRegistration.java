@@ -38,11 +38,14 @@ public class DefectRegistration {
 
     @PostPersist
     public void onPostPersist() {
-        DefectCancelled defectCancelled = new DefectCancelled(this);
-        defectCancelled.publishAfterCommit();
-
         DefectRegistered defectRegistered = new DefectRegistered(this);
         defectRegistered.publishAfterCommit();
+    }
+
+    @PreRemove
+    public void onPreRemove() {
+        DefectCancelled defectCancelled = new DefectCancelled(this);
+        defectCancelled.publishAfterCommit();
     }
 
     public static DefectRegistrationRepository repository() {

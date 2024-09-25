@@ -102,7 +102,7 @@
                 'qty': 0,
                 'phoneNumber': '',
                 'defectId': '',
-                'defectregistrationDt': '2024-09-23',
+                'defectregistrationDt': '2024-09-24',
             }
         },
         methods: {
