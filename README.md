@@ -82,8 +82,8 @@ total 8 에서 7로 삭제가 정상적으로 된걸 볼 수 있다.
 
 ```
 Gateway에 application.yaml 설정 화면
-![image](https://github.com/user-attachments/assets/adc524ac-c296-4fc6-a16b-456409b8d84c)
 ```
+![image](https://github.com/user-attachments/assets/adc524ac-c296-4fc6-a16b-456409b8d84c)
 
 ## 분산 데이터 프로젝션 - CQRS
 - CQRS(Command Query Responsibility Segregation) 패턴은 데이터의 쓰기(명령)와 읽기(쿼리)를 분리하여 관리하는 방식입니다. 이를 통해 각 기능에 최적화된 데이터 모델을 사용할 수 있습니다.
