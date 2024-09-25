@@ -100,7 +100,7 @@ Gateway에 application.yaml 설정 화면
 - docker에 이미지를 올림
 ![image](https://github.com/user-attachments/assets/a7364ea7-b679-4ec8-9127-be1c57f62140)
 
-- cloude에 배포 완료
+- cloud에 배포 완료
 - ![image](https://github.com/user-attachments/assets/ee8e18e4-1276-476e-89ba-c1769eaac843)
 
 - CI/CD 설정 - Jenkins 활용
